@@ -1,5 +1,6 @@
 .footer {
     color: var(--color-tertiary);
+    background-color: var(--color-secondary);
 
     border: solid var(--color-tertiary);
     border-radius: 10px;
