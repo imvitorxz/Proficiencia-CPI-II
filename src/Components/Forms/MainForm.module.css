@@ -32,3 +32,19 @@
     color: var(--color-tertiary);
     font-size: 1rem;
 }
+
+.button {
+    color: var(--color-tertiary);
+    background-color: var(--color-secondary);
+
+    margin: 1rem;
+    padding: 1rem;
+    font: var(--font-primary);
+
+    border: solid var(--color-tertiary);
+    border-radius: 10px;
+}
+
+.divCadastroSucesso {
+    display: none;
+}
