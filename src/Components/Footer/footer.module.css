@@ -1,0 +1,8 @@
+.footer {
+    color: var(--color-tertiary);
+
+    border: solid var(--color-tertiary);
+    border-radius: 10px;
+
+    font-weight: bold;
+}

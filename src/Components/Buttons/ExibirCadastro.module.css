@@ -1,0 +1,5 @@
+.button {
+    font: var(--font-primary);
+    color: red;
+    margin: 1rem;
+}
