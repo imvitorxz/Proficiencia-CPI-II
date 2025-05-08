@@ -6,7 +6,7 @@ import Footer from './Components/Footer/footer';
 import MainForm from './Components/Forms/MainForm';
 
 function App() {
-  document.title = "Formulário de Cadastro - Proficência CPI II";
+  document.title = "Formulário de Cadastro - Proficência CPI 2";
   return (
     <div className="App">
       <Header/>
