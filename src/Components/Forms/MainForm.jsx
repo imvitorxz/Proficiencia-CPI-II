@@ -2,15 +2,18 @@ import styles from './MainForm.module.css'
 
 import { useState } from 'react';
 
-let formValidado = false;
 
 export default function MainForm() {
-
+    
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [formValidado, setFormValidado] = useState(false);
 
     function validateData(event) {
+
+        event.preventDefault(); 
+        
         if (name.length < 3) {
             alert('Nome inválido!');
             return;
@@ -24,8 +27,7 @@ export default function MainForm() {
             return;
         }
 
-        formValidado = true;
-        console.log(formValidado);
+        setFormValidado(true);
     }
 
     return (
