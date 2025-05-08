@@ -11,8 +11,6 @@ export default function MainForm() {
     const [password, setPassword] = useState('');
 
     function validateData(event) {
-        event.preventDefault();
-
         if (name.length < 3) {
             alert('Nome inválido!');
             return;
@@ -52,7 +50,7 @@ export default function MainForm() {
                 Exibir cadastro
             </button>
 
-            <div className={styles.divCadastroSucesso} style={{ display: formValidado ? 'none' : 'block' }}>
+            <div className={styles.divCadastroSucesso} style={{ display: formValidado ? 'block' : 'none' }}>
                 <h2>Cadastro realizado com sucesso!</h2>
                 <p>
                     Seus dados foram validados e cadastrados com sucesso, verifique se estão corretos.
